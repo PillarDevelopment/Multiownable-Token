@@ -1,0 +1,35 @@
+{
+  "contracts": {
+    "BasicToken": "525d3d864fdca0290d3cbe8f511ca9857774c742",
+    "BurnableMintableToken": "525d3d864fdca0290d3cbe8f511ca9857774c742",
+    "GovernanceMigratable": "f1ea6bdb2eb44de16977520b52088fd14df9f37e",
+    "Multiownable": "7abdfe23efefc096cae05ae27464477a4f735799",
+    "NFPLToken": "12ebd606f7d6f1ccaae6587b630fdacaffcb5131",
+    "SafeMath": "bf84f5dba942291289c80f271862cb515ce813ab",
+    "StandardToken": "0613bd4af55bd3af4bffc4affebd3486a10478e0"
+  },
+  "tests": {
+    "tests/test_approve.py": {
+      "coverage": false,
+      "isolated": [],
+      "results": "FFFFFFFFFFFF",
+      "sha1": "e8a0bc95cb80e014a3e9533d270614dff6d03ecd",
+      "txhash": []
+    },
+    "tests/test_transfer.py": {
+      "coverage": false,
+      "isolated": [],
+      "results": "FFEEEEEEE",
+      "sha1": "64097e4f451b2c6dcbfb23c3b77e387e731a3dff",
+      "txhash": []
+    },
+    "tests/test_transferFrom.py": {
+      "coverage": false,
+      "isolated": [],
+      "results": "FFFFEFFFFFFFFFFFF",
+      "sha1": "67392c035814de580e846c211f07e27b979aafa7",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}
